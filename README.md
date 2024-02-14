@@ -1,5 +1,5 @@
-![npm version](https://img.shields.io/npm/v/@teleology/slim.svg) ![npm license](https://img.shields.io/npm/l/@teleology/slim.svg)
-# @teleology/slim 
+![npm version](https://img.shields.io/npm/v/@teleology/variable-resolution.svg) ![npm license](https://img.shields.io/npm/l/@teleology/variable-resolution.svg)
+# @teleology/variable-resolution 
 
 A tiny javascript template rendering engine
 
@@ -7,11 +7,11 @@ A tiny javascript template rendering engine
 ## Installation
 
 ```sh
-npm i -D @teleology/slim
+npm i -D @teleology/variable-resolution
 ```
 or
 ```sh
-yarn add -D @teleology/slim
+yarn add -D @teleology/variable-resolution
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ Anything within `{{ }}` will be treated as javascript. Whitespace will be ignore
 
 Example:
 ```javascript
-const { slim } = require('@teleology/slim');
+const { slim } = require('@teleology/variable-resolution');
 
 const template = `
     Hey {{ user.name }}, how are you doing?? 
@@ -106,7 +106,7 @@ All 3 of them had, 6 tires!
 An experimental async functionality is included in this build. This will allow async functions to be used within the template. 
 
 ```javascript
-const { slimAsync } = require('@teleology/slim');
+const { slimAsync } = require('@teleology/variable-resolution');
 
 const template = `
     Hey {{ user.name }}, how are you doing?? 
